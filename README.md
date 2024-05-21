@@ -1,16 +1,39 @@
-# conduit
+# Conduit - A RealWorld Flutter App
 
-A new Flutter project.
+This is a Flutter application for the [RealWorld](https://github.com/gothinkster/realworld) project. It's a Medium.com clone that uses the RealWorld API. The app is named "Conduit".
+
+## Features
+
+- Uses [Provider](https://pub.dev/packages/provider) for state management.
+- Uses [Dio](https://pub.dev/packages/dio) for networking.
+- Uses [Easy Localization](https://pub.dev/packages/easy_localization) for internationalization.
+- Uses [Go_Router](https://pub.dev/packages/go_router) for routing.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: Make sure you have Flutter installed on your local machine. For more details, visit [Flutter's official site](https://docs.flutter.dev/get-started/install).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Clone the repository
+
+Clone this repository to your local machine. You can use the following command:
+
+```bash
+git clone https://github.com/oguzarapkirli/flutter_conduit.git
+```
+
+### Run the app
+Navigate to the project directory and run the following command:
+
+```bash
+flutter run
+```
+
+This will start the app in debug mode. Open the simulator or connect your device to test the app.
+
+### License
+
+This project is licensed under the WTFPL License - see the LICENSE.md file for details.
